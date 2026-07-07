@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "nombre": "Ferrari SF90 Stradale",
+    "precio": 2500,
+    "img": "img/1.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Producto 2",
+    "precio": 1800,
+    "img": "img/2.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Jaguar E-Type Roadster",
+    "precio": 1090,
+    "img": "img/3.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "McLaren Senna",
+    "precio": 2959,
+    "img": "img/4.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "Producto 5",
+    "precio": 1234,
+    "img": "img/5.jpg"
+  }
+]

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo"><a class="logo" href="../index.html">LOGO</a></div>
+
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./contactos.html">Contacto</a>
+          </li>
+          <!--👉 Agregar un link al carrito, con un ID para el contador -->
+          <li>
+            <a href="./carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+
+      <form class="form-contacto" action="" method="POST">
+        <div class="grupo-input">
+          <label for="email"> Your email: </label>
+          <input id="email" type="email" name="email" />
+        </div>
+        <div class="grupo-input">
+          <label for="mensaje"> Your message: </label>
+          <textarea id="mensaje" name="message"></textarea>
+        </div>
+        <!-- your other form fields go here -->
+        <button class="btn bg-secondary text-dark" type="submit">Send</button>
+      </form>
+    </main>
+    <footer>
+      <p> <span class="copyr"> © </span> Sitio realizado por Juan Corso  para Talento Tech</p>
+    <nav>
+      <ul class="social-links">
+    <li>
+        <a href="https://wa.me/5491159198841" target="_blank">
+            <img src="/img/whatsapp.png" alt="logo de whatsapp" />
+        </a>
+    </li>
+    
+    <li>
+        <a href="https://www.instagram.com/corso_juan_domingo/" target="_blank">
+            <img src="/img/instagram.png" alt="logo de instagram" />
+        </a>
+    </li>
+</ul>
+    </nav>
+
+    <!--👉 Agregar type module y enlace al contacto.js -->
+    <script type="module" src="../js/contacto.js"></script>
+  </body>
+</html>

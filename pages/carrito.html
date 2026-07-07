@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="div-logo"><a class="logo" href="../index.html">LOGO</a></div>
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="./contacto.html">Contacto</a>
+          </li>
+          <!--👉 Agregar un link al carrito, con un ID para el contador -->
+          <li>
+            <a href="./carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Carrito de compras</h1>
+      <section id="contenedor-carrito" class="contenedor-tarjetas">
+        <!-- Productos del carrito -->
+      </section>
+
+      <div id="acciones-carrito" class="acciones-carrito">
+        <!-- Botones de eliminar y finalizar compra se agregan desde JS -->
+      </div>
+
+      <section id="resumen-carrito">
+        <!-- Aca ira el resumen del carrito -->
+      </section>
+    </main>
+    <footer>
+     <p> <span class="copyr"> © </span> Sitio realizado por Juan Corso  para Talento Tech</p>
+    <nav>
+      <ul class="social-links">
+    <li>
+        <a href="https://wa.me/5491159198841" target="_blank">
+            <img src="/img/whatsapp.png" alt="logo de whatsapp" />
+        </a>
+    </li>
+    
+    <li>
+        <a href="https://www.instagram.com/corso_juan_domingo/" target="_blank">
+            <img src="/img/instagram.png" alt="logo de instagram" />
+        </a>
+    </li>
+</ul>
+    </nav>
+
+    <!--👉 Agregar type module y enlace al carrito.js -->
+    <script type="module" src="../js/carrito.js"></script>
+  </body>
+</html>
